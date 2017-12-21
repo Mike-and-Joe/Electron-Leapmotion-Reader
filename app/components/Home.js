@@ -1,7 +1,7 @@
 // @flow
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import styles from './Home.css'
+import styles from './Home.scss'
 
 export default class Home extends Component {
   render() {
@@ -10,6 +10,7 @@ export default class Home extends Component {
         <div className={styles.container} data-tid="container">
           <h2>Home</h2>
           <Link to="/counter">to Counter</Link>
+          <Link to="/camera">to Camera</Link>
         </div>
       </div>
     )
