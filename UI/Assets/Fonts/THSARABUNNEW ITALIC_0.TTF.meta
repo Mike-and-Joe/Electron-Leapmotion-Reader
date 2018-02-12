@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: ec49dc150fc1ed143bab78cd74c16572
+timeCreated: 1517995551
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: TH Sarabun New
+  fontNames:
+  - TH Sarabun New
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1c45a010d3cbef7499c15606af8a5f94, type: 3}
+  - {fileID: 12800000, guid: 2f897461909f66746bc63cd931f4f6af, type: 3}
+  - {fileID: 12800000, guid: 98dd872d8cd9e6743b57317fe14761fc, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
