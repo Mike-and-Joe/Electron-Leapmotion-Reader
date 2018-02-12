@@ -1,0 +1,7 @@
+sceneSetups:
+- path: Assets/Training.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/LeapMotion/Modules/Hands/Examples/Scenes/Rigged_Hands_AutoRig_Example.unity
+  isLoaded: 1
+  isActive: 0
