@@ -62,6 +62,36 @@ namespace OpenCVUtils
             return c;
         }
 
+
+        // Convert Unity Texture2D object to OpenCVSharp Mat object
+        public void TextureToMat(Texture2D texture, Mat mat, int width, int height)
+        {
+            // Color32 array : r, g, b, a
+            Color32[] c = texture.GetPixels32();
+
+            Vec3b[] imageVec3b = new Vec3b[width * height];
+
+            // Parallel for loop
+            // convert Color32 object to Vec3b object
+            // Vec3b is the representation of pixel for Mat
+            Parallel.For(0, height, i => {
+                for (var j = 0; j < width; j++)
+                {
+                    var col = c[j + i * width];
+                    var vec3 = new Vec3b
+                    {
+                        Item0 = col.b,
+                        Item1 = col.g,
+                        Item2 = col.r
+                    };
+                    // set pixel to an array
+                    imageVec3b[j + i * width] = vec3;
+                }
+            });
+            // assign the Vec3b array to Mat
+            mat.SetArray(0, 0, imageVec3b);
+        }
+
     }
 
 }
