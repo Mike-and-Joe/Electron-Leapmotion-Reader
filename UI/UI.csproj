@@ -524,6 +524,7 @@
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\OpenCVUtils.cs" />
     <Compile Include="Assets\Scripts\Parallel.cs" />
+    <Compile Include="Assets\Scripts\Prediction.cs" />
     <Compile Include="Assets\Scripts\QuitProgram.cs" />
     <Compile Include="Assets\Scripts\RecorderInterface.cs" />
     <Compile Include="Assets\Scripts\Recording.cs" />

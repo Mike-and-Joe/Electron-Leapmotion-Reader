@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Training.unity
+- path: Assets/Predict.unity
   isLoaded: 1
   isActive: 1

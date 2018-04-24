@@ -51,6 +51,11 @@ public class Webcamera : MonoBehaviour, RecorderInterface
         isRecording = false;
     }
 
+    void OnDisable ()
+    {
+        cameraTexture.Stop();
+    }
+
     // Update is called once per frame
     void Update()
     {
